@@ -2,7 +2,7 @@
 
 from setuptools import setup
 
-setup(name='Generic Celery task',
+setup(name='generic_celery_task',
       version='0.1',
       description='A workaround for the lack of dynamic tasks in Celery',
       long_description=open("README.rst").read(),
