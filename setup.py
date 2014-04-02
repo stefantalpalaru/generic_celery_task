@@ -3,7 +3,7 @@
 from setuptools import setup
 
 setup(name='generic_celery_task',
-      version='0.2',
+      version='0.3',
       description='A workaround for the lack of dynamic tasks in Celery',
       long_description=open("README.rst").read(),
       author='Stefan Talpalaru',
