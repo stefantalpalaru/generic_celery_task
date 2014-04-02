@@ -100,5 +100,3 @@ celery-3.1.10, redis-2.8.7 and redis-py-2.9.1 .
 
 [1]: http://thingspython.wordpress.com/2010/09/27/another-super-wrinkle-raising-typeerror/
 
-<!-- pandoc -o README.rst README.md -->
-

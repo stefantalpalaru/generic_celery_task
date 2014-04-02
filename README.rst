@@ -109,9 +109,4 @@ credits
 
 -  homepage: https://github.com/stefantalpalaru/generic\_celery\_task
 
-.. raw:: html
-
-   <!-- pandoc -o README.rst README.md -->
-
-
 
