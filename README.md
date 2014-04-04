@@ -97,6 +97,8 @@ celery-3.1.10, redis-2.8.7 and redis-py-2.9.1 .
 
 - homepage: https://github.com/stefantalpalaru/generic_celery_task
 
+- PyPI: https://pypi.python.org/pypi/generic_celery_task
+
 
 [1]: http://thingspython.wordpress.com/2010/09/27/another-super-wrinkle-raising-typeerror/
 

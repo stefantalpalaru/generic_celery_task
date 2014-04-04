@@ -109,4 +109,6 @@ credits
 
 -  homepage: https://github.com/stefantalpalaru/generic\_celery\_task
 
+-  PyPI: https://pypi.python.org/pypi/generic\_celery\_task
+
 
