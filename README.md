@@ -1,9 +1,9 @@
-##problem
+## problem
 
 The Celery daemon needs to be restarted every time an existing task is modified
 or new tasks are added.
 
-##solution
+## solution
 
 Use only one Celery task that's generic enough to run arbitrary Python
 functions with arbitrary arguments and wrap this task in a custom decorator.
@@ -14,7 +14,7 @@ not running.
 The job's calling API is the same as Celery's: .s(), .delay() and
 .apply\_async()
 
-##example
+## example
 
 - in celeryapp.py which is in the same directory as celeryconfig.py, create a
   Celery app and then import the custom decorator:
@@ -69,11 +69,11 @@ res = job.apply_async(args=[1, 2])
 # and process the result as above, if you need to
 ```
 
-##installation
+## installation
 
 A setup.py is provided. You know what to do with it.
 
-##testing
+## testing
 
 The tests require nose, redis, redis-py and assume that the port 6389 is free.
 
@@ -82,7 +82,7 @@ Run the tests with "python setup.py test" or with "nosetests -v".
 This package was tested with python-2.7.6, python-3.3.4, nose-1.3.0,
 celery-3.1.10, redis-2.8.7 and redis-py-2.9.1 .
 
-##caveats
+## caveats
 
 - the module which holds your custom task will be reloaded. If it contains a
   class using 'super' and its instance, you might run into the problem
@@ -91,9 +91,9 @@ celery-3.1.10, redis-2.8.7 and redis-py-2.9.1 .
 - the state of the Celery daemon and its broker are checked only once, when the
   first .delay() or .apply\_async() method is called on a custom task.
 
-##credits
+## credits
 
-- author: Stefan Talpalaru <stefantalpalaru@yahoo.com>
+- author: Ștefan Talpalaru <stefantalpalaru@yahoo.com>
 
 - homepage: https://github.com/stefantalpalaru/generic_celery_task
 
